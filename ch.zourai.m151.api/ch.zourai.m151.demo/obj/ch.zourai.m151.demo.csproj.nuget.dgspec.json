@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIBZ\\R. Thommen\\M151\\M151\\ch.zourai.m151.api\\ch.zourai.m151.demo\\ch.zourai.m151.demo.csproj": {}
+    "C:\\Users\\Zouaiter Raian\\Downloads\\M151-master\\ch.zourai.m151.api\\ch.zourai.m151.demo\\ch.zourai.m151.demo.csproj": {}
   },
   "projects": {
-    "D:\\GIBZ\\R. Thommen\\M151\\M151\\ch.zourai.m151.api\\ch.zourai.m151.demo\\ch.zourai.m151.demo.csproj": {
+    "C:\\Users\\Zouaiter Raian\\Downloads\\M151-master\\ch.zourai.m151.api\\ch.zourai.m151.demo\\ch.zourai.m151.demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIBZ\\R. Thommen\\M151\\M151\\ch.zourai.m151.api\\ch.zourai.m151.demo\\ch.zourai.m151.demo.csproj",
+        "projectUniqueName": "C:\\Users\\Zouaiter Raian\\Downloads\\M151-master\\ch.zourai.m151.api\\ch.zourai.m151.demo\\ch.zourai.m151.demo.csproj",
         "projectName": "ch.zourai.m151.demo",
-        "projectPath": "D:\\GIBZ\\R. Thommen\\M151\\M151\\ch.zourai.m151.api\\ch.zourai.m151.demo\\ch.zourai.m151.demo.csproj",
+        "projectPath": "C:\\Users\\Zouaiter Raian\\Downloads\\M151-master\\ch.zourai.m151.api\\ch.zourai.m151.demo\\ch.zourai.m151.demo.csproj",
         "packagesPath": "C:\\Users\\Zouaiter Raian\\.nuget\\packages\\",
-        "outputPath": "D:\\GIBZ\\R. Thommen\\M151\\M151\\ch.zourai.m151.api\\ch.zourai.m151.demo\\obj\\",
+        "outputPath": "C:\\Users\\Zouaiter Raian\\Downloads\\M151-master\\ch.zourai.m151.api\\ch.zourai.m151.demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,9 +41,29 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.4.1, )"
             }
           },
           "imports": [
